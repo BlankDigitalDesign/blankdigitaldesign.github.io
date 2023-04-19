@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { createContext } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import LandingPage from "./pages/LandingPage";
+import Booking from "./pages/Booking";
+import AboutUs from "./pages/AboutUs";
+import PestDictionary from "./pages/PestDictionary";
+import PestContext from "./context";
 
-function App() {
+const App = () => {
+  const PestContext = createContext({ values });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PestContext.Provider>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/booking" element={<Booking />} />
+            <Route path="/pest-dictionary" element={<PestDictionary />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </PestContext.Provider>
     </div>
   );
-}
+};
 
 export default App;
