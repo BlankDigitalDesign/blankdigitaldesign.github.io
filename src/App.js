@@ -7,8 +7,10 @@ import Booking from "./pages/Booking";
 import AboutUs from "./pages/AboutUs";
 import PestDictionary from "./pages/PestDictionary";
 import PestContext from "./context";
+import { useContextValue } from "./useContextValue";
 
 const App = () => {
+  const values = useContextValue();
   const PestContext = createContext({ values });
 
   return (

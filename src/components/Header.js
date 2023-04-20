@@ -10,6 +10,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const [open, setOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleClick = () => setClick(!click);
 
@@ -26,7 +27,7 @@ const Header = () => {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo'>
-            Sunset Synergy
+            Williamson Pest Control
             <i className='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -55,20 +56,8 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="end"
-            onClick={handleDrawerOpen}
-            sx={{ ...(open && { display: 'none' }) }}
-          >
-            <MenuIcon />
-          </IconButton>
         </div>
       </nav>
-      <SideBar 
-        {...{open, handleDrawerClose}}
-      />
     </>
   );
 }
