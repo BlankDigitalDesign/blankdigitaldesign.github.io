@@ -1,3 +1,8 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,60 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dad7cd;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page-title {
+
+}
+
+.footer-content {
+  justify-content: center;
+  background-color: #588157;
+}
+
+footer {
+  margin-top: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer-copy {
+  text-align: center;
+}
+
+.contact form div {
+  display: flex;
+}
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact input {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.contact form {
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .contact h4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact form div {
+    flex-direction: column;
+  }
+  .contact input {
+    width: 100%;
+  }
 }

@@ -1,6 +1,9 @@
+import Team from "../components/team/Team";
+import "../components/team/team.css";
+
 const AboutUs = () => {
     return (
-        <h1>About Us</h1>
+        <Team />
     )
 }
 
