@@ -1,9 +1,10 @@
+import React from "react";
 import tempRodent from "../images/tempRodent.jpg";
 import Back from "../components/Back";
 // import "./contact.css";
 
 const ContactUs = () => {
-    //add submit handler 
+  //add submit handler
   return (
     <>
       <section className="contact mb">

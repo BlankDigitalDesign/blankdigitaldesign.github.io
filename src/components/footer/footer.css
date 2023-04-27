@@ -7,12 +7,14 @@
   font-size: 40px;
 }
 footer {
+  width: 100%;
   margin-top: 50px;
-  background-color: #1d2636;
+  background-color: #dad7cd;
   padding: 50px 0;
   color: #fff;
   bottom: 0;
-  position: absolute;
+  position: fixed;
+  margin-top: auto;
 }
 
 footer img {
@@ -58,5 +60,9 @@ footer ul li {
 }
 
 .link-box {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+#footer-copy {
+  text-align: center;
 }

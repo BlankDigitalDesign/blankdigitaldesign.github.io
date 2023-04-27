@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import { nav } from "../../constants";
 import { Link } from "react-router-dom";
+import logo from "../../images/image.png";
 
 const Header = ({ handleModalStatus }) => {
   const [navList, setNavList] = useState(false);
@@ -15,16 +16,20 @@ const Header = ({ handleModalStatus }) => {
       <header>
         <div className="container flex">
           <div className="logo">
-            <img src="./images/logo.png" alt="" />
+            <img src={logo} alt="Williamson Pest Solutions logo" />
           </div>
           <div className="nav">
             <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link to={list.path}>{list.text}</Link>
+                  <Link className="header-link" to={list.path}>
+                    {list.text}
+                  </Link>
                 </li>
               ))}
-              <li onClick={handleModalStatus}>Contact Us</li>
+              <Link className="header-link" onClick={handleModalStatus}>
+                Contact Us
+              </Link>
             </ul>
           </div>
           <div className="button flex"> </div>

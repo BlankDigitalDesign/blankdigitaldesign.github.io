@@ -77,6 +77,7 @@
 //     </footer>
 //   );
 // }
+import React from "react";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -140,15 +141,15 @@ const Footer = (props) => {
             <div className="logo">
               <img src="../images/logo-light.png" alt="" />
               <h2>Do You Need Help With Anything?</h2>
-              <p>
+              {/* <p>
+                <span>
                 Receive updates, hot deals, tutorials, discounts sent straignt
                 in your inbox every month
-              </p>
-
-              <div className="input flex">
-                <input type="text" placeholder="Email Address" />
+                </span>
                 <button>Subscribe</button>
-              </div>
+              </p> */}
+
+              <div className="input flex"></div>
             </div>
           </div>
           <div className="box">

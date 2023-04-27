@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../public/images/temp-termites.jpg");
+  background-image: url("../../images/temp-termites.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,12 +13,14 @@
   color: #fff;
   font-size: 60px;
 }
-.hero p {
+/* .hero p {
   color: #fff;
   opacity: 0.8;
-}
+} */
 form {
-  background-color: #fff;
+  border-width: 10px;
+  border-color: #344e41;
+  background-color: #dda15e;
   border-radius: 5px;
   margin-top: 50px;
   padding: 0 20px;
@@ -29,6 +31,7 @@ form input {
   border: 1px solid rgba(128, 128, 128, 0.2);
   margin-top: 5px;
   border-radius: 5px;
+  background-color: #fff;
 }
 form span {
   font-size: 14px;

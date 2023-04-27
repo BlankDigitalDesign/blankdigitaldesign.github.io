@@ -1,9 +1,10 @@
+import React from "react";
 import Heading from "../Heading";
 import { team } from "../../constants";
 import "./team.css";
 
 const Team = () => {
-    console.log("team", team)
+  console.log("team", team);
   return (
     <>
       <section className="team background">
@@ -16,30 +17,27 @@ const Team = () => {
           <div className="content mtop grid3">
             {team.map((val, index) => (
               <div className="box" key={index}>
-                <button className="btn3">{val.list} Listings</button>
                 <div className="details">
                   <div className="img">
                     <img src={val.cover} alt="" />
                     <i className="fa-solid fa-circle-check"></i>
                   </div>
                   <i className="fa fa-location-dot"></i>
-                  <label>{val.address}</label>
+                  {/* <label>{val.address}</label> */}
                   <h4>{val.name}</h4>
+                  <p>{val.description}</p>
 
                   {/* <ul>
                     {val.icon.map((icon, index) => (
                       <li key={index}>{icon}</li>
                     ))}
                   </ul> */}
-                  <div className="button flex">
-                    <button>
-                      <i className="fa fa-envelope"></i>
-                      Message
-                    </button>
+                  {/* <div className="button flex">
+                    
                     <button className="btn4">
                       <i className="fa fa-phone-alt"></i>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
