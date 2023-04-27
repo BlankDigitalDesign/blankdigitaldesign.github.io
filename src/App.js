@@ -40,7 +40,7 @@ const App = () => {
   // };
   const getRatings = () => {
     fetch(
-      `https://cors-anywhere.herokuapp.com/http://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJEWbbVgusQIYRXvm2Fiqx1PE&fields=address_components&key=AIzaSyDMQrEHOiGnH5Zyhy2iR_OgFJY6gtUg1Sc`,
+      `https://cors-anywhere.herokuapp.com/http://maps.googleapis.com/maps/api/place/details/json?place_id=${process.env.REACT_APP_PID}&fields=address_components&key=${process.env.REACT_APP_GOOGLE_PLACES_KEY}`,
       {
         method: "GET",
         headers: {
