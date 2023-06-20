@@ -1,26 +1,29 @@
 .hero {
-  background-image: url("../../images/temp-termites.jpg");
+  /* background-image: url("../../images/temp-termites.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 90vh;
   width: 100%;
 }
-.hero .container {
-  padding-top: 15%;
-}
+
 .hero h1 {
   color: #fff;
   font-size: 60px;
 }
-/* .hero p {
-  color: #fff;
-  opacity: 0.8;
-} */
+
+.hero-image {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 form {
+  border: 1px solid rgba(128, 128, 128, 0.2);
   border-width: 10px;
-  border-color: #344e41;
-  background-color: #dda15e;
+  /* border-color: #344e41; */
+  /* background-color: #dda15e; */
   border-radius: 5px;
   margin-top: 50px;
   padding: 0 20px;

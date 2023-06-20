@@ -1,28 +1,33 @@
 .team .box {
   background: #ffffff;
   border-radius: 6px;
-  border: 1px solid rgb(62 28 131 / 10%);
   padding: 2rem;
   transition: 0.5s;
 }
 .team .box:hover {
-  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
   cursor: pointer;
+}
+.team-heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
 }
 .team .details {
   text-align: center;
   margin-top: 30px;
 }
-.team .img {
-  width: 90px;
-  height: 90px;
-  margin: auto;
-  position: relative;
-}
 .team img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  /* border-radius: 50%; */
+}
+.team-image {
+  width: 100px;
+  height: 200px;
+  border-style: solid;
 }
 .team .img i {
   color: #108be7;
@@ -69,4 +74,17 @@
 .team .button i {
   color: white;
   font-size: 20px;
+}
+.card {
+  background-color: #a3b18a;
+}
+.background {
+  background-color: #fefae0;
+}
+
+#mobile-welcome {
+  border-radius: 5px;
+  background-color: #a3b18a;
+  margin-top: 5px;
+  padding-top: 10px;
 }

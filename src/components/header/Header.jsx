@@ -3,7 +3,11 @@ import "./header.css";
 import { nav } from "../../constants";
 import { Link } from "react-router-dom";
 import logo from "../../images/image.png";
-
+import ContactModal from "../ContactModal";
+import PhoneIcon from "@mui/icons-material/Phone";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleX } from "@fortawesome/fontawesome-svg-core";
+import { FaBars } from "react-icons/fa";
 const Header = ({ handleModalStatus }) => {
   const [navList, setNavList] = useState(false);
 
@@ -14,7 +18,12 @@ const Header = ({ handleModalStatus }) => {
   return (
     <>
       <header>
-        <div className="container flex">
+        <div className="flex">
+          <div className="call-button">
+            <a href="tel: 936-314-7037">
+              <PhoneIcon />
+            </a>
+          </div>
           <div className="logo">
             <img src={logo} alt="Williamson Pest Solutions logo" />
           </div>
@@ -22,14 +31,14 @@ const Header = ({ handleModalStatus }) => {
             <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link className="header-link" to={list.path}>
+                  <a className="header-link" href={list.path}>
                     {list.text}
-                  </Link>
+                  </a>
                 </li>
               ))}
-              <Link className="header-link" onClick={handleModalStatus}>
+              <a className="header-link" onClick={() => handleModalStatus("")}>
                 Contact Us
-              </Link>
+              </a>
             </ul>
           </div>
           <div className="button flex"> </div>
@@ -37,9 +46,9 @@ const Header = ({ handleModalStatus }) => {
           <div className="toggle">
             <button onClick={handleToggleClick}>
               {navList ? (
-                <i className="fa fa-times"></i>
+                <FontAwesomeIcon icon="fa-regular fa-circle-xmark" />
               ) : (
-                <i className="fa fa-bars"></i>
+                <FontAwesomeIcon icon={FaBars} />
               )}
             </button>
           </div>

@@ -1,0 +1,66 @@
+#card-base {
+  background-size: cover;
+  width: 600px;
+  height: 350px;
+  /* border-style: solid; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+#booking-card-image {
+  width: 200px;
+  object-fit: contain;
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  /* height:  */
+}
+
+#card-content {
+  color: black;
+  opacity: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 50;
+}
+
+#image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+#card-button {
+  opacity: 1;
+}
+
+.button-row button {
+  width: 70px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#scrollable-row {
+  margin: 4px, 4px;
+  padding: 4px;
+  width: 500px;
+  height: 110px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}

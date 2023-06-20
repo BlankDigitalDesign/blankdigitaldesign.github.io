@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../Heading";
 import "./hero.css";
+import image from "../../images/temp-termites.jpg";
 
 const Hero = () => {
   return (
@@ -11,7 +12,8 @@ const Hero = () => {
             title="Leaders in the Pest Control Industry"
             subtitle="Your local experts in termite treatments, pest control, and rodent control."
           />
-          <div>{/* <h4>Let us know how to help you.</h4> */}</div>
+          <img className="hero-image" src={image} alt="" />
+          {/* <div>{/* <h4>Let us know how to help you.</h4> }</div>
           <form className="flex">
             <div className="box">
               <span>Name</span>
@@ -31,7 +33,7 @@ const Hero = () => {
             </div>
             <div className="box"></div>
             <input type="submit" value="Submit" />
-          </form>
+          </form> */}
         </div>
       </section>
     </>

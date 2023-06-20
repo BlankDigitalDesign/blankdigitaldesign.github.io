@@ -1,13 +1,15 @@
-.page-container {
-  position: relative;
-  min-height: 100vh;
+body {
+  margin-bottom: 100px;
+  min-height: 400px;
+  clear: both;
+  padding: 0;
+  font-family: "Montserrat", arial, sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Trebuchet MS", Arial, sans-serif;
-  background-color: #dad7cd;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 code {
@@ -15,29 +17,59 @@ code {
     monospace;
 }
 
+button {
+  border-radius: 5px;
+  padding: 17px 30px;
+  background: #27ae60;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* Landing Page */
+
+.landing-page container {
+  flex-direction: column;
+}
+
+#heading-section {
+  margin-top: 30px;
+  background-color: #344e41;
+  color: #fff;
+}
+
+/*Pest Dictionary*/
+
+#pest-identification {
+  margin: 0;
+  background-color: #344e41;
+  color: #fff;
+}
+
+.pest-container {
+  /* display: flex; */
+  justify-content: center;
+  z-index: 50;
+}
+
+.pest-image {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#company-text {
+  padding: 20px 30px 20px 30px;
+}
 .page-title {
 }
 
-/* .footer-content {
-  justify-content: center;
-  background-color: #588157;
-} */
-
-/* footer {
-  margin-top: 100px;
-  position: absolute;
-  margin-top: auto;
-  flex: 0 0 50px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-} */
+/*Booking Page*/
 
 .contact form div {
   display: flex;
 }
 .contact textarea {
-  border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -62,7 +94,108 @@ code {
   }
 }
 
+#contact-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+}
+/* About Us */
 .about-us-container {
-  box-shadow: inset;
   margin-bottom: 20px;
+}
+
+/* Ant annimation */
+.ant {
+  position: absolute;
+  animation: crawl 4s linear;
+  animation-iteration-count: 3;
+}
+
+@keyframes crawl {
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  25% {
+    transform: translateY(100px) rotateY(180deg);
+  }
+  50% {
+    transform: translateX(200px) rotateY(0deg);
+  }
+  75% {
+    transform: translateY(100px) rotateY(-180deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+.google-ratings {
+  display: flex;
+}
+
+/*Privacy Policy Page */
+
+.privacy-container {
+  background-color: black;
+  color: rgb(164, 164, 164);
+  padding: 30px;
+}
+
+.privacy-section {
+  padding: 10px 80px 10px 80px;
+}
+
+/*Booking Page, Cards, Assets*/
+#booking-container {
+  margin: 10px 50px 10px 50px;
+  color: rgb(164, 164, 164);
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px;
+}
+
+.booking-button-grp {
+  background-color: #344e41;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.service-image {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.booking-headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#booking-header {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(164, 164, 164);
+}
+
+.booking-label {
+  display: flex;
+  align-items: center;
+}
+
+.project-button {
+  margin-bottom: 3px;
+  border-radius: 5px;
+  justify-content: center;
 }
