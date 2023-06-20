@@ -20,7 +20,7 @@ code {
 button {
   border-radius: 5px;
   padding: 17px 30px;
-  background: #27ae60;
+  background: #096d45;
   border: none;
   color: black;
   cursor: pointer;
@@ -36,6 +36,11 @@ button {
   margin-top: 30px;
   background-color: #344e41;
   color: #fff;
+}
+
+#pest-button {
+  border-radius: 5px;
+  margin-left: 3px;
 }
 
 /*Pest Dictionary*/

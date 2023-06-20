@@ -61,19 +61,19 @@ export const pestTypes = [
 
 export const nav = [
   {
-    text: "home",
+    text: "HOME",
     path: "/",
   },
   {
-    text: "behind the brand",
+    text: "BEHIND THE BRAND",
     path: "/behind-the-brand",
   },
   {
-    text: "pest dictionary",
+    text: "PEST DICTIONARY",
     path: "/pest-dictionary",
   },
   {
-    text: "booking",
+    text: "BOOKING",
     path: "/booking",
   },
 ];

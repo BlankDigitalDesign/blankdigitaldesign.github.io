@@ -59,7 +59,7 @@ const LandingPage = () => {
           </span>
           <span>
             <a href="/pest-dictionary">
-              <button>Common Pests</button>
+              <button>COMMON PESTS</button>
             </a>
           </span>
         </Item>
