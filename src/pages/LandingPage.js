@@ -57,9 +57,9 @@ const LandingPage = () => {
           <span>
             Do you know what kind of pest you have? Check out the dictionary.
           </span>
-          <span>
+          <span style={{ marginLeft: "3px" }}>
             <a href="/pest-dictionary">
-              <button>COMMON PESTS</button>
+              <button id="pest-button">COMMON PESTS</button>
             </a>
           </span>
         </Item>
