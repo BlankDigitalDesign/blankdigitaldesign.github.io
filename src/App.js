@@ -13,7 +13,7 @@ import Stack from "@mui/material/Stack";
 import useViewport from "./hooks/useViewPort";
 
 const App = () => {
-  const [modalOpen, setModalStatus] = useState(true);
+  const [modalOpen, setModalStatus] = useState(false);
   const [pestType, setPestType] = useState("");
   const [isMobile, setIsMobile] = useState(false);
 
@@ -33,8 +33,8 @@ const App = () => {
 
   return (
     <div className="App page-container">
-      {/* <BrowserRouter>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+       <BrowserRouter>
+        
           <Stack spacing={2}>
             <div>
               <Header {...{ modalOpen, handleModalStatus }} />
@@ -69,8 +69,8 @@ const App = () => {
               <Footer />
             </div>
           </Stack>
-        </HashRouter>
-      </BrowserRouter> */}
+
+      </BrowserRouter> 
       <ContactModal {...{ pestType, modalOpen, handleModalStatus }} />
     </div>
   );
