@@ -33,6 +33,7 @@ const App = () => {
 
   return (
     <div className="App page-container">
+
        <BrowserRouter>
         
           <Stack spacing={2}>
@@ -71,6 +72,7 @@ const App = () => {
           </Stack>
 
       </BrowserRouter> 
+
       <ContactModal {...{ pestType, modalOpen, handleModalStatus }} />
     </div>
   );
