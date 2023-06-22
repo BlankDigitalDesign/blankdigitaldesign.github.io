@@ -6,6 +6,8 @@ import { styled } from "@mui/material/styles";
 import Heading from "../components/Heading";
 import image from "../images/termite.jpg";
 import LeaveReview from "../components/leaveReview/LeaveReview";
+// import GoogleReviews from "../components/GoogleReviews";
+// import { ElfsightWidget } from "react-elfsight-widget";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -51,6 +53,7 @@ const LandingPage = () => {
           className="content mtop grid3"
           style={{ backgroundColor: "#dad7cd" }}
         >
+          {/* <ElfsightWidget widgetID="bb4c5d6f-abb9-4c0e-b6a1-2299ade1df5d" /> */}
           {/* <GoogleReviews /> */}
         </Item>
         <Item id="pest-identification">

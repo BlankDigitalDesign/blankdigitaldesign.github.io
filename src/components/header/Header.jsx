@@ -45,9 +45,9 @@ const Header = ({ handleModalStatus }) => {
           <div className="toggle">
             <button onClick={handleToggleClick}>
               {navList ? (
-                <FontAwesomeIcon icon="fa-regular fa-circle-xmark" />
+                <i className="fa fa-times"></i>
               ) : (
-                <FontAwesomeIcon icon={FaBars} />
+                <i className="fa fa-bars"></i>
               )}
             </button>
           </div>

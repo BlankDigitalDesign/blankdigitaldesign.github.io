@@ -1,18 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Formik, Field, Form } from "formik";
 import { MdOutlineClose } from "react-icons/md";
 import { pestTypes } from "../constants";
 import PhoneNumberInput from "./PhoneNumberInput";
 import { Row, Col } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = ({ pestType, handleModalStatus }) => {
   const [selectedPestType, setSelectedPestType] = useState(0);
+  const form = useRef();
+
   const initialValues = {
     firstName: "",
     lastName: "",
     email: "",
     selectedPest: "",
   };
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   emailjs.sendForm({}, {}, form.curent, {}).then(
+  //     (result) => {
+  //       console.log(result);
+  //       //success message
+  //     },
+  //     (error) => {
+  //       console.log(error);
+  //       //error message
+  //     }
+  //   );
+  // };
 
   const selectValues = pestTypes.map((x, i) => (
     <option key={i} value={x.value} label={x.label}>
@@ -23,6 +40,7 @@ const ContactForm = ({ pestType, handleModalStatus }) => {
   const handleSubmit = (values) => {
     handleModalStatus();
     console.log("submit values", values);
+    // sendEmail();
   };
   return (
     <div>
@@ -55,7 +73,7 @@ const ContactForm = ({ pestType, handleModalStatus }) => {
             handleSubmit,
             isSubmitting,
           }) => (
-            <Form>
+            <Form ref={form}>
               <Row>
                 <Col xs={3}>
                   <label htmlFor="firstName">First Name</label>
