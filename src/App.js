@@ -33,46 +33,42 @@ const App = () => {
 
   return (
     <div className="App page-container">
-
-       <BrowserRouter>
-        
-          <Stack spacing={2}>
-            <div>
-              <Header {...{ modalOpen, handleModalStatus }} />
-            </div>
-            <div>
-              <Routes>
-                <Route
-                  path="/"
-                  element={
-                    <LandingPage
-                      {...{ modalOpen, handleModalStatus, pestType }}
-                    />
-                  }
-                />
-                <Route
-                  path="/behind-the-brand"
-                  element={<AboutUs {...{ isMobile }} />}
-                />
-                <Route
-                  path="/pest-dictionary"
-                  element={
-                    <PestDictionary
-                      {...{ modalOpen, handleModalStatus, pestType, isMobile }}
-                    />
-                  }
-                />
-                <Route path="/booking" element={<Booking />} />
-                <Route path="/privacy" element={<PrivacyPolicy />} />
-              </Routes>
-            </div>
-            <div>
-              <Footer />
-            </div>
-          </Stack>
-
-      </BrowserRouter> 
-
+      <BrowserRouter>
+        <Stack spacing={2}>
+          <div>
+            <Header {...{ modalOpen, handleModalStatus }} />
+          </div>
+          <div>
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <LandingPage
+                    {...{ modalOpen, handleModalStatus, pestType }}
+                  />
+                }
+              />
+              <Route
+                path="/behind-the-brand"
+                element={<AboutUs {...{ isMobile }} />}
+              />
+              <Route
+                path="/pest-dictionary"
+                element={
+                  <PestDictionary
+                    {...{ modalOpen, handleModalStatus, pestType, isMobile }}
+                  />
+                }
+              />
+              <Route path="/booking" element={<Booking />} />
+              <Route path="/privacy" element={<PrivacyPolicy />} />
+            </Routes>
+          </div>
+          <div>
+            <Footer />
+          </div>
+        </Stack>
+      </BrowserRouter>
       <ContactModal {...{ pestType, modalOpen, handleModalStatus }} />
     </div>
   );

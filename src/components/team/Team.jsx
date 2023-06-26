@@ -79,24 +79,9 @@ const Team = ({ isMobile }) => {
               aria-label="basic tabs example"
             >
               <Tab label="SHAWN WILLIAMSON" {...a11yProps(0)} />
-              <Tab label="KAYLEIGH WILLIAMSON" {...a11yProps(1)} />
+              <Tab label="KALEIGH WILLIAMSON" {...a11yProps(1)} />
               <Tab label="MARK COYNE" {...a11yProps(2)} />
             </Tabs>
-            {/* ) : (
-              <Tabs
-                orientation="vertical"
-                variant="scrollable"
-                value={value}
-                onChange={handleChange}
-                aria-label="Vertical tabs example"
-                sx={{ borderRight: 1, borderColor: "divider" }}
-              >
-                <Tab label="SHAWN WILLIAMSON" {...a11yProps(0)} />
-                <Tab label="KAYLEIGH WILLIAMSON" {...a11yProps(1)} />
-                <Tab label="MARK COYNE" {...a11yProps(2)} />
-              </Tabs>
-            )} */}
-            {/* </Grid> */}
             <Grid container spacing={0.5}>
               {!isMobile ? (
                 <Grid
