@@ -6,8 +6,8 @@ import { styled } from "@mui/material/styles";
 import Heading from "../components/Heading";
 import image from "../images/termite.jpg";
 import LeaveReview from "../components/leaveReview/LeaveReview";
-// import GoogleReviews from "../components/GoogleReviews";
-// import { ElfsightWidget } from "react-elfsight-widget";
+import GoogleReviews from "../components/GoogleReviews";
+import { ElfsightWidget } from "react-elfsight-widget";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -24,48 +24,50 @@ const LandingPage = () => {
 
   return (
     <Box sx={{ width: "100%" }}>
-      <Stack spacing={2}>
-        <Item id="heading-section">
-          <div>
-            <Heading
-              title="Leaders in the Pest Control Industry"
-              subtitle="Your local experts in termite treatments, pest control, and rodent control."
-            />
-            <img className="hero-image" src={image} alt="termites" />
-          </div>
-        </Item>
-        <Item id="company-info">
-          <div id="company-text">
-            Our company is family-owned and operated with over 15 years of
-            experience in the pest control industry. We are a team of dedicated,
-            positive and knowledgeable members who persistently venture to
-            conduct themselves with the highest level of integrity and honesty.
-            Our primary focus is providing nonpareil customer service by earning
-            our clients' trust and confidence through building relationships and
-            delivering exceptional, affordable and consistent exterminator
-            services.{" "}
-          </div>
-        </Item>
-        <Item id="leave-review">
-          <LeaveReview />
-        </Item>
-        <Item
-          className="content mtop grid3"
-          style={{ backgroundColor: "#dad7cd" }}
-        >
-          {/* <ElfsightWidget widgetID="bb4c5d6f-abb9-4c0e-b6a1-2299ade1df5d" /> */}
-          {/* <GoogleReviews /> */}
-        </Item>
-        <Item id="pest-identification">
-          <span>
-            Do you know what kind of pest you have? Check out the dictionary.
-          </span>
-          <span style={{ marginLeft: "3px" }}>
-            <a href="/pest-dictionary">
-              <button id="pest-button">COMMON PESTS</button>
-            </a>
-          </span>
-        </Item>
+      <Stack spacing={2} style={{ display: "flex" }}>
+        <div>
+          <Item id="heading-section">
+            <div>
+              <Heading
+                title="Leaders in the Pest Control Industry"
+                subtitle="Your local experts in termite treatments, pest control, and rodent control."
+              />
+              <img className="hero-image" src={image} alt="termites" />
+            </div>
+          </Item>
+          <Item id="company-info">
+            <div id="company-text">
+              Our company is family-owned and operated with over 15 years of
+              experience in the pest control industry. We are a team of
+              dedicated, positive and knowledgeable members who persistently
+              venture to conduct themselves with the highest level of integrity
+              and honesty. Our primary focus is providing nonpareil customer
+              service by earning our clients' trust and confidence through
+              building relationships and delivering exceptional, affordable and
+              consistent exterminator services.{" "}
+            </div>
+          </Item>
+          <Item id="leave-review">
+            <LeaveReview />
+          </Item>
+          <Item
+            className="content mtop grid3"
+            style={{ backgroundColor: "#dad7cd", justifyContent: "center" }}
+          >
+            <ElfsightWidget widgetID="bb4c5d6f-abb9-4c0e-b6a1-2299ade1df5d" />
+            {/* <GoogleReviews /> */}
+          </Item>
+          <Item id="pest-identification">
+            <span>
+              Do you know what kind of pest you have? Check out the dictionary.
+            </span>
+            <span style={{ marginLeft: "3px" }}>
+              <a href="/pest-dictionary">
+                <button id="pest-button">COMMON PESTS</button>
+              </a>
+            </span>
+          </Item>
+        </div>
       </Stack>
     </Box>
   );

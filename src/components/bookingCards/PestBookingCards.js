@@ -6,7 +6,7 @@ import { pestControlCards } from "../../constants";
 const PestBookingCards = ({ handleBookClick }) => {
   return (
     <div id="booking-container">
-      <div className="booking-headings">Pest Control</div>
+      {/* <div className="booking-headings">Pest Control</div> */}
       {pestControlCards.map((x, i) => (
         <Card
           key={i}

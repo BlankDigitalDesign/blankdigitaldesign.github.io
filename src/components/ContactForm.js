@@ -14,22 +14,22 @@ const ContactForm = ({ pestType, handleModalStatus }) => {
     firstName: "",
     lastName: "",
     email: "",
-    selectedPest: "",
+    selectedPestType: "",
   };
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs.sendForm({}, {}, form.curent, {}).then(
-  //     (result) => {
-  //       console.log(result);
-  //       //success message
-  //     },
-  //     (error) => {
-  //       console.log(error);
-  //       //error message
-  //     }
-  //   );
-  // };
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm("service_ositsx7", "template_vm73vvh", form.current).then(
+      (result) => {
+        console.log(result);
+        //success message
+      },
+      (error) => {
+        console.log(error);
+        //error message
+      }
+    );
+  };
 
   const selectValues = pestTypes.map((x, i) => (
     <option key={i} value={x.value} label={x.label}>
@@ -40,7 +40,7 @@ const ContactForm = ({ pestType, handleModalStatus }) => {
   const handleSubmit = (values) => {
     handleModalStatus();
     console.log("submit values", values);
-    // sendEmail();
+    sendEmail();
   };
   return (
     <div>
@@ -116,7 +116,7 @@ const ContactForm = ({ pestType, handleModalStatus }) => {
                 <Col xs={9}>
                   <select
                     style={{ marginRight: "3px" }}
-                    name="selectedPest"
+                    name="selectedPestType"
                     value={pestType ? pestType : selectedPestType}
                     onChange={(e) => setSelectedPestType(e.target.value)}
                   >

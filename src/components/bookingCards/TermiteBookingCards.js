@@ -5,9 +5,9 @@ import { termiteInspectionCards } from "../../constants";
 const TermiteBookingCards = ({ handleBookClick }) => {
   return (
     <div id="booking-container">
-      <div className="booking-headings">
+      {/* <div className="booking-headings">
         <h3>TERMITE INSPECTION (REAL ESTATE)</h3>
-      </div>
+      </div> */}
       {termiteInspectionCards.map((x) => (
         <Card
           image={x.image}

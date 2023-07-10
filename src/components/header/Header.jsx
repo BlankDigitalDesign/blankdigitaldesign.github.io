@@ -3,9 +3,6 @@ import "./header.css";
 import { nav } from "../../constants";
 import logo from "../../images/image.png";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleX } from "@fortawesome/fontawesome-svg-core";
-import { FaBars } from "react-icons/fa";
 
 const Header = ({ handleModalStatus }) => {
   const [navList, setNavList] = useState(false);

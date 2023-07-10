@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import ContactModal from "../components/ContactModal";
 import { Container } from "react-bootstrap";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";

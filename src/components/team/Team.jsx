@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Heading from "../Heading";
 import { team } from "../../constants";
 import "./team.css";
 import Card from "react-bootstrap/Card";

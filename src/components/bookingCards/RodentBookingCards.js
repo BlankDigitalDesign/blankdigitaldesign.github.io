@@ -6,9 +6,9 @@ import { rodentControlCards } from "../../constants";
 const RodentBookingCards = ({ handleBookClick }) => {
   return (
     <div id="booking-container">
-      <div className="booking-headings">
+      {/* <div className="booking-headings">
         <h3>RODENT CONTROL/PREVENTION</h3>
-      </div>
+      </div> */}
       <Card
         image={rodentControlCards.image}
         title={rodentControlCards.header}

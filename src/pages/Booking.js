@@ -72,13 +72,13 @@ const Booking = () => {
     setEveningSelected(false);
   };
 
-  const handleAfternoonSelected = () => {
+  const handleAfternoonClick = () => {
     setMorningSelected(false);
     setAfternoonSelected(true);
     setEveningSelected(false);
   };
 
-  const handleEveningSelected = () => {
+  const handleEveningClick = () => {
     setMorningSelected(false);
     setAfternoonSelected(false);
     setEveningSelected(true);
@@ -111,7 +111,7 @@ const Booking = () => {
       Morning
     </button>,
     <button
-      onClick={handleAfternoonSelected}
+      onClick={handleAfternoonClick}
       type="button"
       className="booking-button-grp"
       name="afternoon"
@@ -121,7 +121,7 @@ const Booking = () => {
       Afternoon
     </button>,
     <button
-      onClick={handleEveningSelected}
+      onClick={handleEveningClick}
       type="button"
       className="booking-button-grp"
       name="evening"
@@ -161,7 +161,7 @@ const Booking = () => {
               <Tab label="PEST CONTROL" {...a11yProps(0)} />
               <Tab label="RODENT CONTROL/PREVENTION" {...a11yProps(1)} />
               <Tab label="TERMITE INSPECTION (REAL ESTATE)" {...a11yProps(2)} />
-              <Tab label="Machines" {...a11yProps(3)} />
+              <Tab label="MISTERS" {...a11yProps(3)} />
             </Tabs>
           </Grid>
           <Grid
@@ -203,7 +203,7 @@ const Booking = () => {
                 <Col xs={3} className="booking-label">
                   <label htmlFor="lastName">LAST NAME</label>
                 </Col>
-                <Col>
+                <Col xs={9}>
                   <Field type="text" name="lastName" />
                 </Col>
               </Row>
@@ -211,7 +211,7 @@ const Booking = () => {
                 <Col xs={3} className="booking-label">
                   <label htmlFor="email">EMAIL</label>
                 </Col>
-                <Col>
+                <Col xs={9}>
                   <Field type="email" name="email" />
                 </Col>
               </Row>
