@@ -109,8 +109,8 @@ const Team = ({ isMobile }) => {
                 style={{
                   // display: "flex",
                   justifyContent: "center",
-                  backgroundColor: "#faedcd",
-                  borderRadius: "10px",
+                  // backgroundColor: "#faedcd",
+                  // borderRadius: "10px",
                   // paddingLeft: "3px",
                 }}
               >

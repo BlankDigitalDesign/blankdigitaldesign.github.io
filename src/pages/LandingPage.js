@@ -4,10 +4,11 @@ import Paper from "@mui/material/Paper";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
 import Heading from "../components/Heading";
-import image from "../images/termite.jpg";
+import image from "../images/hero1.jpg";
 import LeaveReview from "../components/leaveReview/LeaveReview";
 import GoogleReviews from "../components/GoogleReviews";
 import { ElfsightWidget } from "react-elfsight-widget";
+import { Parallax, Background } from "react-parallax";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -32,7 +33,12 @@ const LandingPage = () => {
                 title="Leaders in the Pest Control Industry"
                 subtitle="Your local experts in termite treatments, pest control, and rodent control."
               />
-              <img className="hero-image" src={image} alt="termites" />
+              <Parallax bgImage={image} strength={500}>
+                <div style={{ height: 500 }}>
+                  <div>HTML inside the parallax</div>
+                </div>
+              </Parallax>
+              {/* <img className="hero-image" src={image} alt="termites" /> */}
             </div>
           </Item>
           <Item id="company-info">
