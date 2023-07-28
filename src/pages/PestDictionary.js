@@ -134,7 +134,6 @@ const PestDictionary = ({ handleModalStatus }) => {
             xs={9}
             md={9}
             style={{
-              backgroundColor: "#faedcd",
               borderRadius: "10px",
             }}
           >
@@ -152,9 +151,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                     width: "100%",
                     // maxHeight: { xs: 233, md: 167 },
                     maxWidth: { xs: 250, md: 350 },
-                    borderRadius: 2,
-                    border: 1,
-                    borderColor: "#344e41",
+                    // borderRadius: 2,
+                    // border: 1,
+                    // borderColor: "#344e41",
                   }}
                   src={flea}
                   alt="flea"
@@ -165,7 +164,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -180,7 +179,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -195,7 +194,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -224,9 +223,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: "#344e41",
+                  // borderRadius: 2,
+                  // border: 1,
+                  // borderColor: "#344e41",
                 }}
                 src={wasp}
                 alt="wasp"
@@ -236,7 +235,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -249,7 +248,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -264,7 +263,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -295,7 +294,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   maxWidth: { xs: 250, md: 350 },
                   // borderRadius: 2,
                   // border: 1,
-                  borderColor: "#344e41",
+                  // borderColor: "#344e41",
                 }}
                 src={bee1}
                 alt="bee"
@@ -335,7 +334,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -348,7 +347,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -363,7 +362,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -392,9 +391,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: "#344e41",
+                  // borderRadius: 2,
+                  // border: 1,
+                  // borderColor: "#344e41",
                 }}
                 src={fireAnts}
                 alt="fire ants"
@@ -406,7 +405,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -421,7 +420,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -450,9 +449,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: "#344e41",
+                  // borderRadius: 2,
+                  // border: 1,
+                  // borderColor: "#344e41",
                 }}
                 src={bedbug}
                 alt="bedbugs"
@@ -462,7 +461,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -475,7 +474,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -490,7 +489,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -531,7 +530,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -544,7 +543,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -559,7 +558,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -601,7 +600,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -614,7 +613,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -629,7 +628,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                   marginBottom: "5px",
@@ -671,7 +670,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
@@ -684,7 +683,7 @@ const PestDictionary = ({ handleModalStatus }) => {
                   display: "flex",
                   justifyContent: "center",
                   textAlign: "center",
-                  backgroundColor: "#fefae0",
+                  // backgroundColor: "#fefae0",
                   borderRadius: "10px",
                   padding: "5px",
                 }}
