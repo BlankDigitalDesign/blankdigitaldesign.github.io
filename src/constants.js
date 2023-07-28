@@ -80,19 +80,19 @@ export const nav = [
 
 export const team = [
   {
+    title: "Co-Founder/Business Development Director",
+    cover: kaleigh,
+    description:
+      "Kaleigh is a a founding partner at Williamson Pest Solutions, a father and daughter creation. She assumes the role of new project development, lead, existing project management. She spent several years in business management and has a background in helping companies profit off of controlling their bottom line and optimizing off of customer satisfaction and building a lasting consumer rapport. She loves the freedom and flexibility that comes with having a small business and is happy that she can share the success with her father. In her spare time, she enjoys long walks to the refrigerator, picking up heavy things only to set them back down, and spending time with her son.",
+    name: "Kaleigh Williamson",
+  },
+  {
     title: "Co-Founder/Commercial Applicator",
     cover: shawn,
     description:
       "Shawn’s background in insecticides gives him a sophisticated grasp on even the most theoretical aspects of the pest control industry, but his real passion comes from applying that knowledge to creating custom chemical compilations and catering to his loyal clientele. Over the years he has developed his own set of sophisticated pest control skills for problems that sometimes require unique solutions. Shawn's job doesn't just end whenever he performs a service - he is known to hang around and perhaps learn the names of your new family puppy you drove cross-country to pick-up and your oldest in college. A real family feel from a real family man. Shawn is a father of three and in his spare time enjoys a cold one, listening to heavy metal and being outdoors. ",
     name: "Shawn Williamson",
     alt: "Shawn Williamson",
-  },
-  {
-    title: "Co-Founder/Business Development Director",
-    cover: kaleigh,
-    description:
-      "Kaleigh is a a founding partner at Williamson Pest Solutions, a father and daughter creation. She assumes the role of new project development, lead, existing project management. She spent several years in business management and has a background in helping companies profit off of controlling their bottom line and optimizing off of customer satisfaction and building a lasting consumer rapport. She loves the freedom and flexibility that comes with having a small business and is happy that she can share the success with her father. In her spare time, she enjoys long walks to the refrigerator, picking up heavy things only to set them back down, and spending time with her son.",
-    name: "Kaleigh Williamson",
   },
   {
     title: "Commercial Technician",
@@ -219,15 +219,13 @@ export const pestControlCards = [
     header: "Commercial Package",
     image: commercial,
     title: "2 hr | Price Varies",
-    text:
-      "All commercial inquiries must complete a free phone consultation prior to providing pricing. We will need details about the facilities such as square footage, scope of work and problematic insects for comprehensive bidding.",
+    text: "All commercial inquiries must complete a free phone consultation prior to providing pricing. We will need details about the facilities such as square footage, scope of work and problematic insects for comprehensive bidding.",
   },
   {
     header: "Specialty Service - German Roach Treatment",
     image: roach,
     title: "1 hr | $165-$225",
-    text:
-      "This specialty treatment requires preparation on the customers' behalf - we will need you to remove all of your dried goods, dishes, etc. out of all cabinets and drawers. Please see attached PDF to sign and complete with further instructions before your German Roach service to ensure you get the most out of your treatment.",
+    text: "This specialty treatment requires preparation on the customers' behalf - we will need you to remove all of your dried goods, dishes, etc. out of all cabinets and drawers. Please see attached PDF to sign and complete with further instructions before your German Roach service to ensure you get the most out of your treatment.",
   },
   {
     header: "Specialty Service - Fire Ant Treatment (Yard Granule)",
@@ -245,8 +243,7 @@ export const pestControlCards = [
     header: "Specialty Service - Residential Flea Treatment",
     image: flea,
     title: "2 hr | $95-$220",
-    text:
-      "Treatment of yard for fleas + fumigation of all interior surfaces for presence of fleas",
+    text: "Treatment of yard for fleas + fumigation of all interior surfaces for presence of fleas",
   },
   {
     header: "Specialty Service - Sod Webworm Treatment",
@@ -258,8 +255,7 @@ export const pestControlCards = [
     header: "Residential Application - Termite Treatment",
     image: termites,
     title: "6 hr | Price Varies",
-    text:
-      "Full perimeter trenching treatment method for termites specific to South-East Texas to include but not limited to: Eastern Subterranean Termites, Formosan Termites and Drywood Termites.",
+    text: "Full perimeter trenching treatment method for termites specific to South-East Texas to include but not limited to: Eastern Subterranean Termites, Formosan Termites and Drywood Termites.",
   },
   {
     header: "Residential Pest Inspection",
@@ -271,8 +267,7 @@ export const pestControlCards = [
     header: "Warranty Call - Service Touch-Up",
     image: "",
     title: "30 min | Free",
-    text:
-      "This service is for existing customers only who have booked and completed a prior service and are still experiencing issues.",
+    text: "This service is for existing customers only who have booked and completed a prior service and are still experiencing issues.",
   },
 ];
 
@@ -288,28 +283,24 @@ export const termiteInspectionCards = [
     header: "T5 Form - WDI Inspection Report",
     image: "",
     title: "1 hr | $125-$175",
-    text:
-      "Complete termite inspection of residential or commercial property with 4-page form to be forwarded to representing agent. This service is usually requested when purchasing or selling real estate.",
+    text: "Complete termite inspection of residential or commercial property with 4-page form to be forwarded to representing agent. This service is usually requested when purchasing or selling real estate.",
   },
   {
     header: "Residential Appointment - Gold Package",
     image: gold,
     title: "2 hr | $130",
-    text:
-      "Our gold package is what is recommended if your property hasn’t had any prior pest control in 6-8 months and is experiencing an influx of issues due to a change in climate. We charge $125 as a one-time initial fee. This service is going to cover all general pests specific to the season (excluding bed bugs and German roaches). We essentially treat your property as though it has never been treated and perform what we call a “double up spray” on both service and chemical (using double the chemical of what we would normally use on a standard service call and performing twice the service.) We will do a heavy power spray(approx. 25-30 gallons of chemical) on the exterior of your home, covering every crack and crevice. We will then go behind it with our hand tank and treat the ground perimeter inside and out, a granule in the yard that is moisture-activated and several pheromone monitors. These monitors help us monitor activity behind the scenes and are equipped with a scent that draws any insects that may still be lingering – into it. This is most effective for follow-up service. Whenever we come back out a few months later to assess the property and make note of if what we did is fully taking care of your issues, or if it may further require a more extensive approach. The neat apart about how we operate is that we fully customize your service over a period of time and we begin to become familiar with what your property’s’ specific needs are. Unfortunately, there is no ‘one size fits all’ in the pest control world. With your full cooperation and our determination, we will find the best combination of products that specifically cater to your satisfaction. We do offer a full warranty on all of our work. This is exciting news for you because after we come out -- you have peace of mind that if you see anything it will be treated at our cost.",
+    text: "Our gold package is what is recommended if your property hasn’t had any prior pest control in 6-8 months and is experiencing an influx of issues due to a change in climate. We charge $125 as a one-time initial fee. This service is going to cover all general pests specific to the season (excluding bed bugs and German roaches). We essentially treat your property as though it has never been treated and perform what we call a “double up spray” on both service and chemical (using double the chemical of what we would normally use on a standard service call and performing twice the service.) We will do a heavy power spray(approx. 25-30 gallons of chemical) on the exterior of your home, covering every crack and crevice. We will then go behind it with our hand tank and treat the ground perimeter inside and out, a granule in the yard that is moisture-activated and several pheromone monitors. These monitors help us monitor activity behind the scenes and are equipped with a scent that draws any insects that may still be lingering – into it. This is most effective for follow-up service. Whenever we come back out a few months later to assess the property and make note of if what we did is fully taking care of your issues, or if it may further require a more extensive approach. The neat apart about how we operate is that we fully customize your service over a period of time and we begin to become familiar with what your property’s’ specific needs are. Unfortunately, there is no ‘one size fits all’ in the pest control world. With your full cooperation and our determination, we will find the best combination of products that specifically cater to your satisfaction. We do offer a full warranty on all of our work. This is exciting news for you because after we come out -- you have peace of mind that if you see anything it will be treated at our cost.",
   },
   {
     header: "Residential Appointment - Bronze Package",
     image: bronze,
     title: "2 hr | $79 - $99",
-    text:
-      "Our bronze package is priced from $69-89 and is based on the square footage of your property and a visual assessment. This is a service that we typically recommend performing every 80-90 days unless you have an issue that persists, then we may recommend every 60 days instead, to be on the safer side. We perform a full outside perimeter spray and interior with our hand tank, as well as a granule in the yard and pheromone monitors in high traffic areas such as garage, sinks, attics.",
+    text: "Our bronze package is priced from $69-89 and is based on the square footage of your property and a visual assessment. This is a service that we typically recommend performing every 80-90 days unless you have an issue that persists, then we may recommend every 60 days instead, to be on the safer side. We perform a full outside perimeter spray and interior with our hand tank, as well as a granule in the yard and pheromone monitors in high traffic areas such as garage, sinks, attics.",
   },
 ];
 
 export const socialLinks = {
-  yelp:
-    "https://www.yelp.com/biz/williamson-pest-solutions-humble?osq=williamson+pest+solutions",
+  yelp: "https://www.yelp.com/biz/williamson-pest-solutions-humble?osq=williamson+pest+solutions",
   facebook:
     "https://www.facebook.com/Williamson-Pest-Solutions-705842376293329",
 };

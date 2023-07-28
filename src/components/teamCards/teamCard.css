@@ -1,0 +1,12 @@
+.card-container {
+  display: flex;
+  margin: 40px;
+}
+
+.team-img {
+  width: 20vw;
+}
+
+.card-content {
+  align-items: center;
+}

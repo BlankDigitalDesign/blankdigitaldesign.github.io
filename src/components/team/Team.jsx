@@ -90,8 +90,8 @@ const Team = ({ isMobile }) => {
                   style={{
                     display: "flex",
                     justifyContent: "center",
-                    backgroundColor: "#faedcd",
-                    borderRadius: "10px",
+                    // backgroundColor: "#faedcd",
+                    // borderRadius: "10px",
                     // paddingLeft: "3px",
                   }}
                 >
@@ -122,8 +122,8 @@ const Team = ({ isMobile }) => {
                   >
                     <Card.Body
                       style={{
-                        backgroundColor: "#a3b18a",
-                        borderRadius: "5px",
+                        // backgroundColor: "#a3b18a",
+                        // borderRadius: "5px",
                         padding: "5px",
                       }}
                     >
