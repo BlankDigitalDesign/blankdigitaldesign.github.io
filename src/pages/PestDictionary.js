@@ -293,8 +293,8 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
+                  // borderRadius: 2,
+                  // border: 1,
                   borderColor: "#344e41",
                 }}
                 src={bee1}
@@ -308,9 +308,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
+                  // borderRadius: 2,
                   border: 1,
-                  borderColor: "#344e41",
+                  // borderColor: "#344e41",
                 }}
                 src={bee2}
                 alt="bee"
@@ -323,9 +323,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
+                  // borderRadius: 2,
                   border: 1,
-                  borderColor: "#344e41",
+                  // borderColor: "#344e41",
                 }}
                 src={bee3}
                 alt="bee"
@@ -519,9 +519,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: "#344e41",
+                  // borderRadius: 2,
+                  // border: 1,
+                  // borderColor: "#344e41",
                 }}
                 src={roach}
                 alt="roaches"
@@ -589,9 +589,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: "#344e41",
+                  // borderRadius: 2,
+                  // border: 1,
+                  // borderColor: "#344e41",
                 }}
                 src={termite}
                 alt="termites"
@@ -659,9 +659,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   width: "100%",
                   // maxHeight: { xs: 233, md: 167 },
                   maxWidth: { xs: 250, md: 350 },
-                  borderRadius: 2,
-                  border: 1,
-                  borderColor: "#344e41",
+                  // borderRadius: 2,
+                  // border: 1,
+                  // borderColor: "#344e41",
                 }}
                 src={mosquito}
                 alt="mosquitos"
@@ -700,9 +700,9 @@ const PestDictionary = ({ handleModalStatus }) => {
                   justifyContent: "center",
                   textAlign: "center",
                   backgroundColor: "#fefae0",
-                  borderRadius: "10px",
-                  padding: "5px",
-                  marginBottom: "5px",
+                  // borderRadius: "10px",
+                  // padding: "5px",
+                  // marginBottom: "5px",
                 }}
               >
                 {preventMosquitos}

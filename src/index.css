@@ -60,7 +60,7 @@ button {
 .pest-image {
   display: flex;
   justify-content: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 #company-text {
@@ -154,7 +154,7 @@ button {
 /*Booking Page, Cards, Assets*/
 #booking-container {
   margin: 10px 50px 10px 50px;
-  color: rgb(164, 164, 164);
+  /* color: rgb(164, 164, 164); */
   justify-content: center;
   align-items: center;
 }
@@ -178,7 +178,7 @@ button {
   width: 150px;
   display: block;
   margin: 0 auto;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .booking-headings {
@@ -192,7 +192,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(164, 164, 164);
+  /* color: rgb(164, 164, 164); */
 }
 
 .booking-label {
